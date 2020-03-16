@@ -23,6 +23,12 @@
                 controller: 'PessoaIncluirAlterarController as vm'
             })
             
+            /** Rotas para Perfis */
+            .when('/cadastrarPerfil', {
+                templateUrl: 'app/spas/perfils/template/perfil-incluir-alterar.tpl.html',
+                controller: 'PerfilIncluirAlterarController as vm'
+            })
+            
             .otherwise({
                 templateUrl: 'index_ERROR.html'
             });
